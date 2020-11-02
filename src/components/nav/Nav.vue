@@ -6,7 +6,7 @@
     flat
     >
 
-    <v-toolbar-title>김지희</v-toolbar-title>
+    <v-toolbar-title>Pinot Noir</v-toolbar-title>
 
     <v-spacer></v-spacer>
 
