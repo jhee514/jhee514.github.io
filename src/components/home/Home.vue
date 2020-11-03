@@ -49,7 +49,6 @@
 <script>
 	import Nav from '@/components/nav/Nav';
 	
-
 	export default {
 		name: 'Home',
 		data() {

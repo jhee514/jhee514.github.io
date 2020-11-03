@@ -2,7 +2,8 @@ import Vue from 'vue';
 import VueRouter from 'vue-router';
 
 import Home from '@/components/home/Home.vue';
-import NotFound from '@/components/notFound/NotFound.vue'
+import NotFound from '@/components/notFound/NotFound.vue';
+import PinotNoir from '@/components/pinotNoir/PinotNoir.vue';
 
 
 Vue.use(VueRouter);
@@ -21,6 +22,11 @@ const routes = [
   {
     path: '*',
     redirect: '/404',
+  },
+  {
+    path: '/pinot',
+    name: 'PinotNoir',
+    component: PinotNoir,
   },
   
 ];
